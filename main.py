@@ -33,7 +33,8 @@ def classify_image(model, image):
 def main():
     st.set_page_config(page_title="AI Image Classifier ", page_icon="🖼️", layout="centered")   
     st.title("AI Image Classifier")
-    st.write("Upload an image to classify it using AI")
+    st.write("Upload an image to classify it using AI! (results may not be accurate)")
+    
     @st.cache_resource
     def load_cached_model():
         return load_model()
