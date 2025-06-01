@@ -31,7 +31,7 @@ def classify_image(model, image):
         return None
 
 def main():
-    st.set_page_config(page_title="AI Image Classifier", page_icon="🖼️", layout="centered")   
+    st.set_page_config(page_title="AI Image Classifier ", page_icon="🖼️", layout="centered")   
     st.title("AI Image Classifier")
     st.write("Upload an image to classify it using AI")
     @st.cache_resource
