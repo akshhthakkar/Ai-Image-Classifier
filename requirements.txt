@@ -1,1 +1,5 @@
 opencv-python-headless
+opencv-python-headless
+streamlit
+numpy
+Pillow
